@@ -1,0 +1,10 @@
+mqtt:
+  url: http://127.0.0.1
+  options: 
+
+messages:
+  - name: send a message
+    topic: messages
+    data: 
+      yourDataHere: describe the JSON object you want to send in YAML
+      or: {"in" : "JSON"}
